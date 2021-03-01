@@ -1,0 +1,20 @@
+html, body {
+  height: 100%;
+}
+img {
+position:relative;
+}
+#nav-bar,
+#footer {
+  background-color: black;
+}
+a {
+  color: white;
+}
+
+a:hover {
+  color: red;
+}
+#footer-text {
+  text-align: "center" 
+}
