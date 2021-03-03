@@ -1,23 +1,43 @@
 html, body {
   height: 100%;
 }
-img {
-position:relative;
-}
+
 #nav-bar,
 #footer {
-  background-color: black;
+  background-color: rgb(218, 218, 218);
 }
 a {
   color: white;
 }
-
 a:hover {
+  list-style: none;
   color: red;
 }
+/* Image properties and style. */
+.bg {
+  background-image: url(img/work-space.jpg);
+  height: 100%;
+  /* Center and Scale the Image nicely*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text-box {
+  padding-left: 60%;
+  padding-top: 15%;
+  color: white;
+}
+.typing > *{
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typingAnim 4s steps(50);
+}
+
+@keyframes typingAnim{
+  from { width: 0 }
+  to { width: 100% }
+}
+
 #footer-text {
   text-align: "center" 
-}
-#work-space-img{
-  background-image: url(img/work-space.jpg);
 }
