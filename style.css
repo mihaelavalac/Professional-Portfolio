@@ -13,8 +13,9 @@ html {
   margin:auto;
 }
 
-header { border: 3px solid rgb(167, 25, 68);
-  background-color: rgb(225, 154, 175, 0.6);
+header { 
+  border: 4px dashed rgb(167, 25, 68);
+  background-color: rgb(225, 154, 175, 0.9);
   margin-bottom: 1rem;
 }
 
