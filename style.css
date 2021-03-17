@@ -13,7 +13,7 @@ html {
   margin:auto;
 }
 
-header {
+header { border: 3px solid rgb(167, 25, 68);
   background-color: rgb(225, 154, 175, 0.6);
   margin-bottom: 1rem;
 }
@@ -30,7 +30,7 @@ header {
 }
 
 .btn {
-  font-weight: 900px;
+  font-weight: 700px;
   border-radius: 600px;
   border-width: 9px;
   text-transform: uppercase;
@@ -44,7 +44,7 @@ header {
 .btn-primary:hover {
   background-color: rgb(167, 25, 68);
   border-color:  rgb(167, 25, 68);
-  border-width: 7px;
+  border-width:11px;
 }
 
 .btn-xl {
