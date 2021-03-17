@@ -3,40 +3,52 @@ html {
   width: 100%;
   height: 100%;
   background: url(img/bg.jpg) no-repeat center center fixed; 
+  font-family: 'Gentium Book Basic', serif;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+.row {
+  margin:auto;
+}
 
-.row header {
-  /* background-color: rgb(212, 106, 106, 0.8); */
+header {
+  background-color: rgb(225, 154, 175, 0.6);
   margin-bottom: 1rem;
 }
 
-h1 #first-section {
-  font-family: 'Ultra', serif;
-  font-size: 4rem;
-  color: rgb(117, 22, 65);
+#first-section {
+  font-size: 5rem;
+  color: rgb(118, 25, 53);
 }
+
+#second-section {
+  font-size: 2.3rem;
+  color: rgb(118, 25, 53); 
+  margin-top: -20px;
+}
+
 .btn {
-  font-weight: 700;
-  border-radius: 300px;
+  font-weight: 900px;
+  border-radius: 600px;
+  border-width: 9px;
   text-transform: uppercase;
 }
 
 .btn-primary {
-  background-color: #f05F44;
-  border-color:  #f05F44;
+  background-color:rgb(154, 57, 86);
+  border-color:  rgb(154, 57, 86);
 }
+
 .btn-primary:hover {
-  background-color: #ee4b08;
-  border-color: #ee4b08;
-  border-width: 4px;
+  background-color: rgb(167, 25, 68);
+  border-color:  rgb(167, 25, 68);
+  border-width: 7px;
 }
 
 .btn-xl {
-  padding: 1rem, 2rem;
+  padding: 2rem, 3rem;
 }
 
 /* #nav-bar,
