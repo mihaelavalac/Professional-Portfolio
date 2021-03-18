@@ -15,7 +15,7 @@ html {
 
 header { 
   border: 4px dashed rgb(167, 25, 68);
-  background-color: rgb(225, 154, 175, 0.9);
+  background-color: rgb(225, 154, 175, 0.8);
   margin-bottom: 1rem;
 }
 
@@ -32,6 +32,7 @@ header {
 
 .btn {
   font-weight: 700px;
+  font-size: large;
   border-radius: 600px;
   border-width: 9px;
   text-transform: uppercase;
